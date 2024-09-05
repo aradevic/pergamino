@@ -1,0 +1,14 @@
+
+name: Java CI For PR
+
+on:
+  pull_request:
+    branches:
+      - develop
+      - master
+
+jobs:
+  build:
+    steps:
+    - name: PR against dev or master
+    - run: echo "The job is automatically triggered by a ${{ github.event_name }} event."
