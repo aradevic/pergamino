@@ -16,6 +16,4 @@ jobs:
     steps:
     - name: PR against dev or master
       run: echo "🍏 The job is automatically triggered by a ${{ github.event_name }} event."
-
-  build-image:
-    needs: [ build ]
+      
