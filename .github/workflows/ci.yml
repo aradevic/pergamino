@@ -5,6 +5,9 @@ name: Java CI with Maven
   push:
     branches:
       - '**'
+    branches-ignore:
+     - master
+     - develop
 
 jobs:
   build:
