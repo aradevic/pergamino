@@ -1,1 +1,0 @@
-CI/CD Devops Java project
